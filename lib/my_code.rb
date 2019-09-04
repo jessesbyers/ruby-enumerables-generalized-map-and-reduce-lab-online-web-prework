@@ -1,15 +1,15 @@
-def map(source_array, block)
+def map(array)
  counter = 0 
  new_array = [
- while counter < source_array.length do
- new_array<<source_array[counter]{}
+ while counter < array.length do
+ new_array<<array[counter]{}
  counter += 1 ]
  end
   yield(new_array)
   new_array
 end
 
-map(source_array) do |neg|
+map(array) do |neg|
   neg*-1
   new_array
 end
