@@ -9,9 +9,9 @@ def map(array)
 end
 
 #map() do |neg|
-  neg*-1
-  new_array
-end
+#  neg*-1
+#  new_array
+#end
 
 
 
