@@ -8,10 +8,7 @@ def map(array)
   new_array
 end
 
-#map() do |neg|
-#  neg*-1
-#  new_array
-#end
+
 
 
 
