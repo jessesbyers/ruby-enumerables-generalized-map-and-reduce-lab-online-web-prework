@@ -8,8 +8,13 @@ def map(source_array, block)
   new_array
 end
 
+
+source.array.map do {|negativize|
+negativize *-1}
+end
+
  # map(source_array){|n| n*-1}
-  map(source_array)
+ # map(source_array)
  # map(source_array)*2
 
   
