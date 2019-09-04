@@ -1,4 +1,5 @@
 def map(source_array, block)
+  yield
   counter = 0 
   new_array = []
   while counter < source_array.length do
@@ -9,9 +10,7 @@ def map(source_array, block)
 end
 
 
-source.array.map do {|map|
-negativize *-1}
-end
+source.array[counter].map {|n| n *-1}
 
  # map(source_array){|n| n*-1}
  # map(source_array)
