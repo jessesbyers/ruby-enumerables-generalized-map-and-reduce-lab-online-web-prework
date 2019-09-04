@@ -1,9 +1,9 @@
 def map(array)
  counter = 0 
- new_array = [
+ new_array = []
  while counter < array.length do
  new_array<<array[counter]{}
- counter += 1 ]
+ counter += 1 
  end
   yield(new_array)
   new_array
