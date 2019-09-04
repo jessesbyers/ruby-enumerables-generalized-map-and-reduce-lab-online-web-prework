@@ -9,7 +9,7 @@ def map(source_array, block)
 end
 
 
-source.array.map do {|negativize|
+source.array.map do {|map|
 negativize *-1}
 end
 
