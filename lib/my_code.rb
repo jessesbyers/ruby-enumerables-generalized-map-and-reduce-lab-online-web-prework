@@ -2,10 +2,11 @@ def map(array)
  new_array = []
  counter = 0
  while counter < array.length do
- new_array<<array[counter]{}
+ new.push(yield(array[counter]))
+ new_array<<
  counter += 1 
  end
-  yield(new_array)
+ 
   new_array
 end
 
