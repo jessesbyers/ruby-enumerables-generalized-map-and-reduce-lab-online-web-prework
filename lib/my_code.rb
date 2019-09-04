@@ -5,12 +5,13 @@ def map(source_array, block)
  new_array<<source_array[counter]{}
  counter += 1 ]
  end
-  yield(total)
-  total
+  yield(new_array)
+  new_array
 end
 
 map(source_array) do |neg|
   neg*-1
+  new_array
 end
 
 
