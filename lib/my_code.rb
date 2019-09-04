@@ -10,7 +10,7 @@ def map(source_array, block)
 end
 
 
-source.array[counter].map {|n| n *-1}
+source_array[counter].map {|n| n *-1}
 
  # map(source_array){|n| n*-1}
  # map(source_array)
