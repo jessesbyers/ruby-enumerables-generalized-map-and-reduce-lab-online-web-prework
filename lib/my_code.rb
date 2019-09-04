@@ -1,12 +1,11 @@
 def map(source_array, block)
  
-  yield()
-  
+  yield(total)
+  total
 end
 
 map(source_array) do |neg|
   neg*-1
-  
 end
 
 
