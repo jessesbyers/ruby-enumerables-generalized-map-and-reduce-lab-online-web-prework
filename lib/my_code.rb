@@ -1,16 +1,33 @@
 def map(source_array, block)
-  yield
-  counter = 0 
-  new_array = []
-  while counter < source_array.length do
-    new_array<<source_array[counter]{}
-    counter += 1 
-  end
-  new_array
+ 
+  yield()
+  
+end
+
+map(source_array) do |neg|
+  source_array
+  
 end
 
 
-source_array[counter].map {|n| n *-1}
+
+
+
+
+
+#def map(source_array, block)
+ # yield
+  #counter = 0 
+  #new_array = []
+#  while counter < source_array.length do
+ #   new_array<<source_array[counter]{}
+  #  counter += 1 
+  #end
+  #new_array
+#end
+
+
+#source_array[counter].map {|n| n *-1}
 
  # map(source_array){|n| n*-1}
  # map(source_array)
