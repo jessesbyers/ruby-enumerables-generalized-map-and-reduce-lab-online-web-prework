@@ -5,7 +5,7 @@ def map(source_array, block)
 end
 
 map(source_array) do |neg|
-  source_array
+  neg*-1
   
 end
 
