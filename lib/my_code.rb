@@ -9,6 +9,9 @@ def map(array)
 end
 
 def reduce(array, starting_point=nil)
+
+
+
   counter = 0
   total = starting_point
  while counter < array.length
